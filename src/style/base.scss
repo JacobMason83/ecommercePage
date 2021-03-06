@@ -1,0 +1,87 @@
+@import url('https://cdn.wallpapersafari.com/52/38/xDi3RN.jpg');
+.app {
+    display: grid;
+    height: 100vh;
+    nav {
+        grid-area: header;
+        background-color: rgb(8, 51, 88);
+        height: 125px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        h1 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            width: 50%;
+            .nav-links {
+                list-style: none;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    background-color: cadetblue;
+                    color: white;
+                }
+                
+            }
+        }
+
+    }
+    .main-header-content {
+        grid-area: main;
+        background-color: aqua;
+        display: flex;
+        background-image: url('https://cdn.wallpapersafari.com/52/38/xDi3RN.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        font-size: 55px;
+    }
+    .hero-section {
+        grid-area: hero;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1.3em;
+    }
+    footer {
+        grid-area: footer;
+        background-color:rgb(8, 51, 88);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        color: #fff;
+        ul {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 1.2rem;
+            list-style: none;
+            .foot-links {
+                &:hover {
+                    background-color: cadetblue;
+                    color: #fff;
+                }
+            }
+            
+        }
+        h2 {
+            margin: 25px 0px;
+        }
+    }
+
+}
