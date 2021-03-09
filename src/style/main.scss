@@ -19,6 +19,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: transparent;
+    background-color: darkgrey;
 }
 
 .app {
@@ -33,4 +34,5 @@ body {
    "footer footer footer footer" ; 
 
 }
-@import './base.scss'
+@import './base.scss';
+@import './about.scss'

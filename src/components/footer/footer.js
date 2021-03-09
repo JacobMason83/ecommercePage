@@ -11,7 +11,7 @@ const Footer = () => {
       <li className="foot-links">Contact Us</li>
       <li className="foot-links">Cart</li>
     </ul>
-    <h2>Copyright Mason Web Designs 2021</h2>
+    <h2>&copy; Mason Web Designs 2021</h2>
      </footer>
    )
 }

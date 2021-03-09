@@ -5,7 +5,7 @@ const HomePage = () => {
 
    return(
        <Fragment>
-    <div className="main-header-content">Im a cool div </div>
+    <div className="main-header-content"><h1>Im a cool div</h1> </div>
     <div className="hero-section">
     <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi incidunt facilis suscipit doloremque? Similique tempora illum quasi modi labore corrupti, repellendus, magnam eaque repellat, minima voluptatem odit rem necessitatibus possimus.
